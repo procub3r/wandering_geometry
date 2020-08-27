@@ -24,5 +24,4 @@ void draw() {
       }
     }
   }
-  println(frameRate);
 }
