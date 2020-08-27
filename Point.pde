@@ -2,7 +2,7 @@ class Point {
   PVector pos, vel;
   Point() {
     pos = new PVector(random(width), random(height));
-    vel = new PVector(random(-0.5, 2), random(-2, 1));
+    vel = new PVector(random(2), random(-2, 2));
   }
 
   void show() {
