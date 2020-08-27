@@ -5,7 +5,6 @@ void setup() {
   for (int i = 0; i < points.length; i++) {
     points[i] = new Point();
   }
-  frameRate(50);
 }
 
 void draw() {
